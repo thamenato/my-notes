@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+# Welcome to My Notes
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This repository contains a collection of my own notes while I'm studying and
+trying new things. It is also intended to be used as my brain dump location.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Go back to my main personal website [here](https://thamenato.dev).

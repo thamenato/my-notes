@@ -18,6 +18,7 @@
       requirements = ''
         mkdocs
         mkdocs-terminal
+        mkdocs-git-revision-date-plugin
       '';
     };
   };
