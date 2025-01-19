@@ -7,7 +7,9 @@
 }:
 
 {
-  packages = [ pkgs.git ];
+  # packages = [
+  #   pkgs.git
+  # ];
 
   languages.python = {
     enable = true;
@@ -15,9 +17,17 @@
       enable = true;
       requirements = ''
         mkdocs
+        mkdocs-terminal
       '';
     };
   };
 
-  # pre-commit.hooks.shellcheck.enable = true;
+  git-hooks.hooks = {
+    end-of-file-fixer.enable = true;
+    mkdocs-linkcheck.enable = true;
+    markdownlint.enable = true;
+    check-yaml.enable = true;
+    yamllint.enable = true;
+  };
+
 }
