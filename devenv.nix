@@ -7,9 +7,9 @@
 }:
 
 {
-  # packages = [
-  #   pkgs.git
-  # ];
+  packages = [
+    pkgs.act
+  ];
 
   languages.python = {
     enable = true;
