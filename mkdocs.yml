@@ -1,0 +1,63 @@
+---
+site_name: My Notes
+site_author: thamenato
+site_url: https://thamenato.dev/my-notes/
+repo_url: https://github.com/thamenato/my-notes
+repo_name: thamenato/my-notes
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: 'index.md'
+  - Study:
+      - Build Systems:
+          - 'study/build-system/index.md'
+          - Bazel: 'study/build-system/bazel.md'
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: purple
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.footer
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - tags
+  - git-revision-date
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+  - pymdownx.magiclink:
+  - attr_list:
+  - toc:
+      anchorlink: true
+      anchorlink_class: "toclink"
+  - md_in_html:
+  - pymdownx.inlinehilite:
+  - pymdownx.superfences:
+  - markdown.extensions.attr_list:
+  - pymdownx.keys:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true

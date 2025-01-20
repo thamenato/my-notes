@@ -71,9 +71,9 @@ system can more quickly get to task A? Maybe, if they don't touch any of the
 same resources. But maybe not - perhaps both use the same file to track their
 statuses and running them at the same time causes a conflict.
 
-**Difficulty performing incremental builds**
+**Difficulty performing incremental builds**.
 
-**Difficulty maintaining and debugging scripts**
+**Difficulty maintaining and debugging scripts**.
 
 ## Artifact-Based Build Systems
 

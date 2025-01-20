@@ -22,7 +22,10 @@ jobs:
         uses: astral-sh/setup-uv@v5
 
       - name: Build website
-        run: uvx --with mkdocs-terminal mkdocs build
+        run: |
+          uvx \
+            --with mkdocs-material \
+            mkdocs build
 
       - name: Upload static files as artifact
         id: deployment

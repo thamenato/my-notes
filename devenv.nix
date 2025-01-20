@@ -16,8 +16,9 @@
     venv = {
       enable = true;
       requirements = ''
-        mkdocs
-        mkdocs-terminal
+        mkdocs-material
+        # mkdocs
+        # mkdocs-terminal
         mkdocs-git-revision-date-plugin
       '';
     };
