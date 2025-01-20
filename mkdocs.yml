@@ -12,6 +12,10 @@ nav:
       - Build Systems:
           - 'study/build-system/index.md'
           - Bazel: 'study/build-system/bazel.md'
+      - Interview:
+          - 'study/interview/devops.md'
+          - 'study/interview/softskills.md'
+          - 'study/interview/terraform.md'
 
 theme:
   name: material
@@ -44,6 +48,7 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.snippets:
   - pymdownx.magiclink:
   - attr_list:
@@ -52,7 +57,6 @@ markdown_extensions:
       anchorlink_class: "toclink"
   - md_in_html:
   - pymdownx.inlinehilite:
-  - pymdownx.superfences:
   - markdown.extensions.attr_list:
   - pymdownx.keys:
   - pymdownx.tasklist:
