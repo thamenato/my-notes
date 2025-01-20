@@ -25,6 +25,7 @@ jobs:
         run: |
           uvx \
             --with mkdocs-material \
+            --with mkdocs-git-revision-date-plugin \
             mkdocs build
 
       - name: Upload static files as artifact
